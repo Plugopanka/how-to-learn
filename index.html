@@ -10,9 +10,11 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="logo logo_place_header logo_position_absolute">
-          <img src="images/logo_place_header.svg" alt="логотип" />
-        </div>
+        <img
+          class="logo_place_header logo_position_absolute"
+          src="images/logo_place_header.svg"
+          alt="логотип"
+        />
 
         <!-- Нужен ли тут контейнер? -->
         <!-- <div class="title_position_static"> -->
@@ -27,16 +29,11 @@
         </p>
         <!-- </div> -->
 
-        <div
+        <img
           class="header__main-illustration main-illustration_position_absolute"
-        >
-          <img
-            src="images/header-image.png"
-            width="765"
-            height="608"
-            alt="фоновая картинка"
-          />
-        </div>
+          src="images/header-image.png"
+          alt="фоновая картинка"
+        />
 
         <div class="header__square-pic square-pic_position_absolute"></div>
       </header>
@@ -221,10 +218,211 @@
           </a>
         </section>
 
-        <section class="kaufman"></section>
+        <section class="kaufman">
+          <h2
+            class="kaufman__section-title section-title_font_l section-title_theme_dark"
+          >
+            Принципы обучения
+          </h2>
+
+          <p
+            class="kaufman__section-subtitle section-subtitle_font_m section-subtitle_theme_dark"
+          >
+            от Джоша Кауфмана
+          </p>
+
+          <div class="kaufman__table">
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                1
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Выберите привлекательный проект.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                2
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Сосредоточьтесь на каком-то одном навыке.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                3
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Определите целевой уровень мастерства.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                4
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Разбейте навык на элементы.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                5
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Приготовьте всё необходимое для занятий.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                6
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Устраните препятствия для занятий.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                7
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Выделите специальное время для занятий.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                8
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Создайте быстрые петли обратной связи.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                9
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Занимайтесь по расписанию, короткими интенсивными интервалами.
+              </p>
+            </div>
+
+            <div class="table__cell table__cell_theme_dark">
+              <h3
+                class="table__heading table__heading_font_m table__heading_theme_dark"
+              >
+                10
+              </h3>
+
+              <p class="table__text table__text_font_s table__text_theme_dark">
+                Уделяйте внимание количеству и скорости.
+              </p>
+            </div>
+          </div>
+
+          <img
+            class="kaufman__triangle"
+            src="images/kaufman-triangle.svg"
+            alt="треугольник на фоне"
+          />
+        </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column_content_copyright">
+            <img
+              class="logo_place_footer"
+              src="images/logo_place_footer.svg"
+              alt="логотип"
+            />
+            <p class="footer__author">&copy Виктор Абанькин</p>
+          </div>
+
+          <nav class="footer__column_content_info">
+            <h3 class="footer__column-heading">О Практикуме</h3>
+
+            <!-- кликабельна только последняя ссылка( 
+            наличие списка на это не влияет, может быть дело в css?-->
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="#">Главная</a></li>
+              <li><a class="footer__column-link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link" href="#">Наставники</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__column_content_social">
+            <h3 class="footer__column-heading">Соцсети</h3>
+            <!-- кликабельна только последняя ссылка( 
+            наличие списка на это не влияет, может быть дело в css? -->
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="images/youtube-icon.svg"
+                    alt="ютуб лого"
+                  />
+                  YouTube</a
+                >
+              </li>
+              <li>
+                <a class="footer__column-link" href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="images/vk_color_white.svg"
+                    alt="вк лого"
+                  />
+                  ВКонтакте</a
+                >
+              </li>
+              <li>
+                <a class="footer__column-link" href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="images/tiktok-icon.svg"
+                    alt="тик-ток лого"
+                  />
+                  TikTok</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
