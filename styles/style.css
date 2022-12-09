@@ -206,7 +206,7 @@
 .table__heading_font_m {
   font-size: 24px;
   font-weight: 600;
-  line-height: 1.15x;
+  line-height: 1.15;
 }
 
 .table__heading_theme_bright {
@@ -242,7 +242,6 @@
   background-color: #f2f2f2;
   background-image: url("../images/feynman.png");
   background-size: 876px 637px;
-  background-position: bottom left;
   background-repeat: no-repeat;
   background-position: left bottom;
   position: relative;
