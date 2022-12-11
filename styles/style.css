@@ -54,6 +54,7 @@
   z-index: 1;
 }
 
+/* не работает ссылка? */
 .header__link {
   color: #2f80ed;
   text-decoration: none;
@@ -315,8 +316,8 @@
 }
 
 .logo_place_footer {
-  height: 32px;
-  width: 228px;
+justify-content: flex-start;
+align-items: flex-start;
 }
 
 .footer__author {
